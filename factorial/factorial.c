@@ -11,5 +11,5 @@ main(){
 
 int fact(int x){
 	if(x==1) return 1;
-	else return x*fact(x-1);//What happens if there is no return in the middle?
+	else return x*fact(x-1);
 }
